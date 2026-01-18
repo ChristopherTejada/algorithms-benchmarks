@@ -1,0 +1,17 @@
+Bubble Sort (ordenamiento burbuja) es un algoritmo de ordenamiento muy sencillo y clásico.
+Recorre repetidamente la lista comparando pares de elementos adyacentes. Si están en el orden incorrecto, los intercambia. Con cada pasada, el elemento más grande "burbujea" hacia el final de la lista.
+
+Complejidad:
+
+(+)Peor caso: 𝑂(𝑛^2)
+
+(+)Mejor caso: 𝑂(𝑛)
+si se optimiza con una bandera que detecta si hubo intercambios.
+
+El problema: Es ineficiente para listas grandes porque hace muchas comparaciones innecesarias.
+
+Se puede mejorar:
+
+Optimización con bandera (swapped): Si en una pasada no se hace ningún intercambio, significa que la lista ya está ordenada y se puede terminar antes.
+
+Reducir iteraciones: En cada pasada, el último elemento ya está en su lugar, por lo que no hace falta volver a compararlo.

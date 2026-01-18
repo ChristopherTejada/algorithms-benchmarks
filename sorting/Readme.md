@@ -15,3 +15,14 @@ Se puede mejorar:
 Optimización con bandera (swapped): Si en una pasada no se hace ningún intercambio, significa que la lista ya está ordenada y se puede terminar antes.
 
 Reducir iteraciones: En cada pasada, el último elemento ya está en su lugar, por lo que no hace falta volver a compararlo.
+
+
+## Sample Results
+
+Benchmark executed with 2000 random integers:
+
+- Bubble Sort: ~0.8s
+- Quick Sort: ~0.02s
+
+This demonstrates the practical impact of algorithmic complexity
+(O(n²) vs O(n log n)).
